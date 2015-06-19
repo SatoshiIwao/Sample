@@ -1,0 +1,36 @@
+step for configuration with Eclipse with GitHub
+
+1. create Java Program. 
+2. save program. 
+3. on project, right click and choose "team" and "share project" and choose "Git".
+4. choose on your local GitHub respository as respository. 
+5. on Window Tab, click "show view"->"others" and  : 
+	-choose "team"->"history" 
+	-choose "Git"-> "git Repositories" and "Git staging" 
+6. shortcut bar for Git
+	-on Window tab, "Customize Perspective"
+	-choose "Command Groups Availability"-> check "Git"
+7. initial commit 
+	on project name, right click and choose "commit"
+	check every file except for class file (compile file). no sense.
+8. show history 
+	-right click your respository and click "show in"-> "history"
+9. create new project in your GitHub account page
+	- copy URL of your project.
+10. create remote (connection with GitHub web site)
+	-right click on "Remote" in Respository frame
+	-click "change" for the URL
+	-paste the URL of your project
+	-enter user and password
+	after change the URL, focus on Ref mappings, choose "Advanced..."
+	-choose "source ref:" and "Destination ref:" to "master" and press "add"
+	-save and close
+11. push to origin
+	-on Respository frame, right click "remote" and click "push"
+12, modify program 
+	- after modified your program, commit.
+	-right click the "master"-> "push branch"
+   
+checking out an existing project : 
+	
+1. 
