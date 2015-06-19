@@ -9,6 +9,8 @@
 
 steps)
 
+	basics of GitHub 
+
 	1. create new repository on github my account page
 	2. copy url
 	3. open cmd, go to github directory
@@ -25,4 +27,25 @@ steps)
 
 	1. fix the conflict : decide which option is best and delete other option 
 	2. on cmd, type "git commit" 
-	3. follow step 5 --- add and commit 
+	3. follow step 5 --- add and commit
+
+	Branching and Merging and Pull Request
+
+	branching : create another copy of code change that does not affect original one
+
+	1. on cmd, go to Github repository 
+	2. type "git branch" // show the branch
+	3. type "git branch feature1(new branch name)" // create new branch
+	4. type "git checkout feature1" // give a control to feature1 branch 
+	5. modify file 
+	6. type "git add -A"
+	7. type "git commit -m "message" "
+		(you can merge modification by typing "git merge master")
+	8. type "git push"
+	9. go to the GitHub site and check new branch
+
+	10. on the site, you can create Pull Request : checking my work by other members
+	11. and you can merge after pull request, click merge button 
+
+
+ 	 
