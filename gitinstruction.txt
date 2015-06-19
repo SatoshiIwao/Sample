@@ -1,0 +1,28 @@
+1.ls
+2.mkdir name
+3.cd name
+4. git clone https.....
+5. git add -A
+6. git commit -m "msg"
+7. git push
+
+
+steps)
+
+	1. create new repository on github my account page
+	2. copy url
+	3. open cmd, go to github directory
+	4. command "git clone url" : url is that you copy from github page // create repository in local pc
+	5. add file (txt, html, css, js, whatever) in your respository that you cloned 
+	6. on cmd, type "git status" to check untracked file : the file you added
+	7. type "git add filename" or "git add -A" // -A : add all
+	8. type "git commit -m "message" " // action of adding is commited
+	9. adding to your local repository is completed, but you still need to sync it with Web github page
+	10, on cmd, type "git push" // adding file to Web github is completed. 
+	11. to get your memeber's work (new file or modification to existing file) type "git pull"
+	
+	notice : when you got source conflict, 
+
+	1. fix the conflict : decide which option is best and delete other option 
+	2. on cmd, type "git commit" 
+	3. follow step 5 --- add and commit 
