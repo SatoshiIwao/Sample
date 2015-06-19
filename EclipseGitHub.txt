@@ -33,4 +33,4 @@ step for configuration with Eclipse with GitHub
    
 checking out an existing project : 
 	
-1. 
+
