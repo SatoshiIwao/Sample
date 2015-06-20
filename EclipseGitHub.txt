@@ -32,5 +32,15 @@ step for configuration with Eclipse with GitHub
 	-right click the "master"-> "push branch"
    
 checking out an existing project : 
-	
+
+import from Git Web page.
+
+1. copy the URL you want to import 
+2. on Eclipse, on File tab, click "import"
+3. select "Git"->"project from Git"->"From URL".
+4. paste URL into the "URL" in "Location" Group box.
+5. specify the Directory in "Directory" on destination group box (Local destination) 
+6. finish
+
+
 
